@@ -1,0 +1,26 @@
+.header{
+    text-align: center;
+    font-family: open sans;
+    word-spacing: 20px;
+    font-style: 700;
+}
+.logo{
+    font-size: 40px;
+    font-weight: 700;
+}
+.main-menu{
+    font-weight: 500;
+    font-size: 20px;
+}
+.b1{
+    display: inline-flex;
+}
+.b2{
+    display: inline-flex;
+}
+.b3{
+    display: inline-flex;
+}
+.cta-1{
+    display: inline-flex;
+}
