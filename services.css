@@ -1,0 +1,259 @@
+.header{
+    text-align: center;
+    font-family: open sans;
+    word-spacing: 20px;
+    font-style: 700;
+    position: sticky;
+    top:0%;
+    background-color: white;
+    z-index: 999;
+}
+body{
+    font-family:cursive;
+}
+.logo{
+    font-size: 40px;
+    font-weight: 700;
+}
+.main-menu{
+    font-weight: 900px;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 10px;
+    font-family: newFont2;
+}
+.main-menu a { 
+    position: relative;
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.main-menu a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: black;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s;
+}
+.main-menu a:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+
+}
+
+.main-menu .btnLogin-popup:hover {
+  background: #040404;
+  color:black;
+}
+a:link{
+    text-decoration: none;
+}
+@font-face {
+    font-family: newFont;
+    font-style: normal;
+    font-weight: 400;
+    src: url("AlexBrush-Regular.woff2");
+}
+@font-face {
+    font-family: cormorant;
+    src: url("Cormorant-VariableFont_wght.woff");
+}
+@font-face {
+    font-family: newFont2;
+    font-style: normal;
+    font-weight: 400;
+    src: url("KdamThmorPro-Regular.woff2");
+      }
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("services-hero.jpg");
+    height: 50%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+    width:1920px;
+    height: 720px;
+}
+.hero-content{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size:xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    overflow-x: hidden;
+}
+.block-2{
+    background-color:rgb(250, 240, 250);
+    margin-top:-40px;
+    padding-top: 30px;
+    text-align: center;
+}
+.b1{
+    display: inline-flex;
+    text-align: center;
+}
+.box-1{
+    border-style:solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    width:500px;
+    height: 100px;
+    margin-right:10px;
+    background-color: rgb(253, 236, 253);
+}
+.box-2{
+    border-style:solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    width:500px;
+    height: 100px;
+    background-color: rgb(253, 236, 253);
+
+}
+.b2{
+    display: inline-flex;
+    text-align: center;
+    margin-top: 20px;
+}
+.box-3{
+    border-style:solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    width:500px;
+    height: 100px;
+    margin-right:10px;
+    background-color: rgb(253, 236, 253);
+}
+.box-4{
+    border-style:solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    width:500px;
+    height: 100px;
+    background-color: rgb(253, 236, 253);
+
+}
+.b3{
+    display: inline-flex;
+    text-align: center;
+    margin-top: 20px;
+}
+.box-5{
+    border-style:solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    width:500px;
+    height: 100px;
+    margin-right:10px;
+    background-color: rgb(253, 236, 253);
+}
+.box-6{
+    border-style:solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    width:500px;
+    height: 100px;
+    background-color: rgb(253, 236, 253);
+
+}
+.b2{
+    display: inline-flex;
+}
+.b3{
+    display: inline-flex;
+}
+.cta-1{
+    display: inline-flex;
+}
+.cta{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero-contact.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+    width:1920px;
+    height: 350px;
+}
+.cta-content{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size:xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button{
+    background-color: thistle;
+    border-radius: 50px;
+    height: 40px;
+    width: 250px;
+    font-size: large;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 540;
+    color: black;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+}
+.foot{
+    display: flex;
+    text-align: center;
+}
+.F1{
+    display: auto;
+    padding-right: 10px;
+    width: 25%;
+    margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.F2{
+    display: auto;
+    padding-right: 10px;
+    width: 25%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.F3{
+    display: auto;
+    padding-right: 10px;
+    width: 25%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.F4{
+    display: auto;
+    text-align: center;
+}
+.copy{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
